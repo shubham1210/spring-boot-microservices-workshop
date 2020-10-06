@@ -47,4 +47,9 @@ And when the circuit break do the fallback ,
 #Files to Look up
 1. MovieCatalogServiceApplication
 2. UserRatingInfo
-3. 
+
+#local Links
+http://localhost:8082/movies/1
+http://localhost:8081/catalog/1
+http://localhost:8083/ratingsdata/movies/1
+http://localhost:8761/

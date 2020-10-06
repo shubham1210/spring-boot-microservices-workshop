@@ -17,7 +17,7 @@ services:
        context : ./ratings-data-service
        dockerfile : Dockerfile
      container_name: rating
-     image: shsharma/ratings-service:v1
+     image: shsharma/ratings-service:v2
      environment: 
       - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
      ports:
@@ -30,7 +30,7 @@ services:
        context : ./movie-info-service
        dockerfile : Dockerfile
      container_name: movieinfo
-     image: shsharma/movieinfo-service:v1
+     image: shsharma/movieinfo-service:v2
      environment: 
       - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
      ports:
@@ -45,7 +45,7 @@ services:
        context : ./movie-catalog-service
        dockerfile : Dockerfile
      container_name: moviecatalog
-     image: shsharma/moviecatalog-service:v1
+     image: shsharma/moviecatalog-service:v2
      environment: 
       - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
      ports:

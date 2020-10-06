@@ -1,0 +1,178 @@
+2020-10-06 14:06:17.035  INFO 20699 --- [main] i.j.d.DiscoveryServerApplication         : No active profile set, falling back to default profiles: default
+2020-10-06 14:06:18.212  WARN 20699 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-10-06 14:06:18.472  INFO 20699 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=58fa3bcb-8ffe-30a1-b3ba-6c2f5690b028
+2020-10-06 14:06:18.591  INFO 20699 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a75da391] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-06 14:06:19.002  INFO 20699 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2020-10-06 14:06:19.036  INFO 20699 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-06 14:06:19.036  INFO 20699 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-10-06 14:06:19.046  INFO 20699 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/shubhamsharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-10-06 14:06:19.270  INFO 20699 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-06 14:06:19.270  INFO 20699 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2216 ms
+2020-10-06 14:06:19.403  WARN 20699 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-06 14:06:19.403  INFO 20699 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 14:06:19.415  INFO 20699 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@22a0d4ea
+2020-10-06 14:06:20.242  INFO 20699 --- [main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-10-06 14:06:20.329  INFO 20699 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-10-06 14:06:20.330  INFO 20699 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-10-06 14:06:20.476  INFO 20699 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-10-06 14:06:20.476  INFO 20699 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-10-06 14:06:21.002  WARN 20699 --- [main] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
+2020-10-06 14:06:21.002  WARN 20699 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-06 14:06:21.002  INFO 20699 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-06 14:06:21.208  INFO 20699 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-06 14:06:21.796  INFO 20699 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-10-06 14:06:21.841  INFO 20699 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-10-06 14:06:21.841  INFO 20699 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2020-10-06 14:06:21.854  INFO 20699 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1601973381852 with initial instances count: 0
+2020-10-06 14:06:21.904  INFO 20699 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2020-10-06 14:06:21.906  INFO 20699 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:8761/eureka/]
+2020-10-06 14:06:22.094  INFO 20699 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-10-06 14:06:22.095  INFO 20699 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-10-06 14:06:22.095  INFO 20699 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-10-06 14:06:22.095  INFO 20699 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-10-06 14:06:22.225  INFO 20699 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:8761/eureka/
+2020-10-06 14:06:22.235  INFO 20699 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2020-10-06 14:06:22.236  INFO 20699 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2020-10-06 14:06:22.250  INFO 20699 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-10-06 14:06:22.367  INFO 20699 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application UNKNOWN with eureka with status UP
+2020-10-06 14:06:22.371  INFO 20699 --- [Thread-25] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2020-10-06 14:06:22.372  INFO 20699 --- [Thread-25] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-10-06 14:06:22.373  INFO 20699 --- [Thread-25] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2020-10-06 14:06:22.395  INFO 20699 --- [Thread-25] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2020-10-06 14:06:22.395  INFO 20699 --- [Thread-25] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2020-10-06 14:06:22.396  INFO 20699 --- [Thread-25] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2020-10-06 14:06:22.396  INFO 20699 --- [Thread-25] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2020-10-06 14:06:22.396  INFO 20699 --- [Thread-25] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2020-10-06 14:06:22.408  INFO 20699 --- [Thread-25] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2020-10-06 14:06:22.468  INFO 20699 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2020-10-06 14:06:22.470  INFO 20699 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2020-10-06 14:06:22.474  INFO 20699 --- [main] i.j.d.DiscoveryServerApplication         : Started DiscoveryServerApplication in 6.826 seconds (JVM running for 7.754)
+2020-10-06 14:06:22.668  INFO 20699 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-06 14:06:22.669  INFO 20699 --- [RMI TCP Connection(7)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-06 14:06:22.679  INFO 20699 --- [RMI TCP Connection(7)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-10-06 14:07:02.652  INFO 20699 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance RATINGS-DATA-SERVICE/192.168.29.140:ratings-data-service:8083 with status UP (replication=false)
+2020-10-06 14:07:03.281  INFO 20699 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance RATINGS-DATA-SERVICE/192.168.29.140:ratings-data-service:8083 with status UP (replication=true)
+2020-10-06 14:07:22.401  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2020-10-06 14:08:03.352  INFO 20699 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MOVIE-CATALOG-SERVICE/192.168.29.140:movie-catalog-service:8081 with status UP (replication=false)
+2020-10-06 14:08:03.866  INFO 20699 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MOVIE-CATALOG-SERVICE/192.168.29.140:movie-catalog-service:8081 with status UP (replication=true)
+2020-10-06 14:08:22.402  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2020-10-06 14:09:22.402  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2020-10-06 14:10:22.403  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 14:10:35.820  INFO 20699 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MOVIE-INFO-SERVICE/192.168.29.140:movie-info-service:8082 with status UP (replication=false)
+2020-10-06 14:10:36.329  INFO 20699 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MOVIE-INFO-SERVICE/192.168.29.140:movie-info-service:8082 with status UP (replication=true)
+2020-10-06 14:11:22.406  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2020-10-06 14:12:22.408  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2020-10-06 14:13:22.408  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2020-10-06 14:14:22.411  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2020-10-06 14:15:22.411  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2020-10-06 14:16:22.413  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2020-10-06 14:17:22.413  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2020-10-06 14:19:15.720  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2020-10-06 14:20:15.721  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2020-10-06 14:21:15.723  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2020-10-06 14:22:15.509  INFO 20699 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 6
+2020-10-06 14:22:15.723  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2020-10-06 14:23:15.723  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 14:24:15.724  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 14:25:15.725  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 14:26:15.729  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2020-10-06 14:27:15.729  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2020-10-06 14:28:15.733  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2020-10-06 14:29:15.735  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2020-10-06 14:30:15.736  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 14:31:15.739  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2020-10-06 14:32:15.739  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 14:33:15.740  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 14:34:15.741  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 14:35:15.743  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2020-10-06 14:36:15.743  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2020-10-06 14:37:15.512  INFO 20699 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 6
+2020-10-06 14:37:15.746  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2020-10-06 14:38:15.749  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2020-10-06 14:39:15.748  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2020-10-06 14:40:15.752  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2020-10-06 14:41:15.755  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2020-10-06 14:42:15.756  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 14:43:15.757  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 14:44:15.757  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 14:45:15.758  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 14:46:15.759  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 14:47:15.760  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 14:48:15.761  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 14:49:15.761  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2020-10-06 14:50:15.764  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2020-10-06 14:51:15.764  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2020-10-06 14:52:15.518  INFO 20699 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 6
+2020-10-06 14:52:15.764  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2020-10-06 14:53:15.765  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 14:54:15.767  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2020-10-06 14:55:15.771  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2020-10-06 14:56:15.773  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2020-10-06 14:57:15.773  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2020-10-06 14:58:15.773  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2020-10-06 14:59:15.773  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2020-10-06 15:00:15.773  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2020-10-06 15:01:15.774  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 15:01:16.024  INFO 20699 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MOVIE-CATALOG-SERVICE/192.168.29.140:movie-catalog-service:8081 with status DOWN (replication=false)
+2020-10-06 15:01:16.536  INFO 20699 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MOVIE-CATALOG-SERVICE/192.168.29.140:movie-catalog-service:8081 with status DOWN (replication=true)
+2020-10-06 15:02:15.775  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 15:03:15.776  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 15:03:15.776  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Evicting 1 items (expired=1, evictionLimit=1)
+2020-10-06 15:03:15.776  WARN 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: expired lease for MOVIE-CATALOG-SERVICE/192.168.29.140:movie-catalog-service:8081
+2020-10-06 15:03:15.778  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MOVIE-CATALOG-SERVICE/192.168.29.140:movie-catalog-service:8081 (replication=false)
+2020-10-06 15:04:15.776  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2020-10-06 15:05:15.778  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2020-10-06 15:06:15.781  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2020-10-06 15:07:15.522  INFO 20699 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 6
+2020-10-06 15:07:15.783  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2020-10-06 15:08:15.786  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2020-10-06 15:09:15.787  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 15:10:15.787  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 15:11:15.787  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2020-10-06 15:12:15.789  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2020-10-06 15:13:15.790  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2020-10-06 15:13:53.756  INFO 20699 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MOVIE-CATALOG-SERVICE/192.168.29.140:movie-catalog-service:8081 with status UP (replication=false)
+2020-10-06 15:13:54.266  INFO 20699 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MOVIE-CATALOG-SERVICE/192.168.29.140:movie-catalog-service:8081 with status UP (replication=true)
+2020-10-06 15:14:15.793  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2020-10-06 15:15:15.794  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2020-10-06 15:15:20.227  INFO 20699 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MOVIE-CATALOG-SERVICE/192.168.29.140:movie-catalog-service:8081 with status DOWN (replication=false)
+2020-10-06 15:15:20.736  INFO 20699 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MOVIE-CATALOG-SERVICE/192.168.29.140:movie-catalog-service:8081 with status DOWN (replication=true)
+2020-10-06 15:15:23.262  INFO 20699 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MOVIE-CATALOG-SERVICE/192.168.29.140:movie-catalog-service:8081 (replication=false)
+2020-10-06 15:15:23.772  WARN 20699 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: MOVIE-CATALOG-SERVICE/192.168.29.140:movie-catalog-service:8081
+2020-10-06 15:15:23.772  INFO 20699 --- [http-nio-8761-exec-3] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): MOVIE-CATALOG-SERVICE - 192.168.29.140:movie-catalog-service:8081
+2020-10-06 15:15:23.773  WARN 20699 --- [TaskBatchingWorker-target_localhost-15] c.n.eureka.cluster.ReplicationTask       : The replication of task MOVIE-CATALOG-SERVICE/192.168.29.140:movie-catalog-service:8081:Cancel@localhost failed with response code 404
+2020-10-06 15:15:23.773  WARN 20699 --- [TaskBatchingWorker-target_localhost-15] c.netflix.eureka.cluster.PeerEurekaNode  : MOVIE-CATALOG-SERVICE/192.168.29.140:movie-catalog-service:8081:Cancel@localhost: missing entry.
+2020-10-06 15:15:29.550  INFO 20699 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/192.168.29.140:8081 with status UP (replication=false)
+2020-10-06 15:15:30.060  INFO 20699 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/192.168.29.140:8081 with status UP (replication=true)
+2020-10-06 15:15:41.544  INFO 20699 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/192.168.29.140:8081 with status DOWN (replication=false)
+2020-10-06 15:15:42.052  INFO 20699 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/192.168.29.140:8081 with status DOWN (replication=true)
+2020-10-06 15:15:44.563  INFO 20699 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance UNKNOWN/192.168.29.140:8081 (replication=false)
+2020-10-06 15:15:45.077  WARN 20699 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: UNKNOWN/192.168.29.140:8081
+2020-10-06 15:15:45.077  INFO 20699 --- [http-nio-8761-exec-9] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): UNKNOWN - 192.168.29.140:8081
+2020-10-06 15:15:45.077  WARN 20699 --- [TaskBatchingWorker-target_localhost-14] c.n.eureka.cluster.ReplicationTask       : The replication of task UNKNOWN/192.168.29.140:8081:Cancel@localhost failed with response code 404
+2020-10-06 15:15:45.078  WARN 20699 --- [TaskBatchingWorker-target_localhost-14] c.netflix.eureka.cluster.PeerEurekaNode  : UNKNOWN/192.168.29.140:8081:Cancel@localhost: missing entry.
+2020-10-06 15:16:02.000  INFO 20699 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/192.168.29.140:8081 with status UP (replication=false)
+2020-10-06 15:16:02.514  INFO 20699 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/192.168.29.140:8081 with status UP (replication=true)
+2020-10-06 15:16:15.794  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2020-10-06 15:16:49.617  INFO 20699 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/192.168.29.140:8081 with status DOWN (replication=false)
+2020-10-06 15:16:50.126  INFO 20699 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/192.168.29.140:8081 with status DOWN (replication=true)
+2020-10-06 15:16:52.646  INFO 20699 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance UNKNOWN/192.168.29.140:8081 (replication=false)
+2020-10-06 15:16:53.155  WARN 20699 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: UNKNOWN/192.168.29.140:8081
+2020-10-06 15:16:53.156  INFO 20699 --- [http-nio-8761-exec-6] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): UNKNOWN - 192.168.29.140:8081
+2020-10-06 15:16:53.156  WARN 20699 --- [TaskBatchingWorker-target_localhost-5] c.n.eureka.cluster.ReplicationTask       : The replication of task UNKNOWN/192.168.29.140:8081:Cancel@localhost failed with response code 404
+2020-10-06 15:16:53.156  WARN 20699 --- [TaskBatchingWorker-target_localhost-5] c.netflix.eureka.cluster.PeerEurekaNode  : UNKNOWN/192.168.29.140:8081:Cancel@localhost: missing entry.
+2020-10-06 15:16:58.463  INFO 20699 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/192.168.29.140:8081 with status UP (replication=false)
+2020-10-06 15:16:58.966  INFO 20699 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/192.168.29.140:8081 with status UP (replication=true)
+2020-10-06 15:17:02.348  INFO 20699 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/192.168.29.140:8081 with status DOWN (replication=false)
+2020-10-06 15:17:02.857  INFO 20699 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/192.168.29.140:8081 with status DOWN (replication=true)
+2020-10-06 15:17:15.796  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2020-10-06 15:18:01.320  INFO 20699 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/192.168.29.140:8081 with status UP (replication=false)
+2020-10-06 15:18:01.830  INFO 20699 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/192.168.29.140:8081 with status UP (replication=true)
+2020-10-06 15:18:15.796  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2020-10-06 15:19:15.799  INFO 20699 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2020-10-06 15:20:13.624  INFO 20699 --- [Thread-27] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application UNKNOWN with eureka with status DOWN
+2020-10-06 15:20:13.628  INFO 20699 --- [Thread-27] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2020-10-06 15:20:13.632  INFO 20699 --- [Thread-27] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2020-10-06 15:20:13.636  INFO 20699 --- [Thread-27] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-06 15:20:13.640  INFO 20699 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-10-06 15:20:13.640  INFO 20699 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

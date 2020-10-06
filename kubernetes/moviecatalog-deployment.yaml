@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: moviecatalog-deployment
+  labels:
+    app: moviecatalog
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: moviecatalog
+  template:
+    metadata:
+      labels:
+        app: moviecatalog
+    spec:
+      containers:
+      - env:
+        - name: eureka.client.serviceUrl.defaultZone
+          value: http://discovery:8761/eureka/
+        image: shsharma/moviecatalog-service:v2
+        imagePullPolicy: "Always"
+        name: moviecatalog
+        ports:
+        - containerPort: 8083

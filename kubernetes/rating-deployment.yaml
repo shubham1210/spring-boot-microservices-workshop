@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rating-deployment
+  labels:
+    app: rating
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rating
+  template:
+    metadata:
+      labels:
+        app: rating
+    spec:
+      containers:
+      - env:
+        - name: eureka.client.serviceUrl.defaultZone
+          value: http://discovery:8761/eureka/
+        image: shsharma/ratings-service:v2
+        imagePullPolicy: "Always"
+        name: rating
+        ports:
+        - containerPort: 8083

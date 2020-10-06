@@ -1,0 +1,12 @@
+2020-10-05 16:49:12.079  INFO 14405 --- [main] i.j.r.RatingsDataServiceApplicationTests : No active profile set, falling back to default profiles: default
+2020-10-05 16:49:12.647  INFO 14405 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=eabc0685-a5f7-3e57-9503-32e922cc62e3
+2020-10-05 16:49:12.794  INFO 14405 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$aa9f4699] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-05 16:49:13.055  WARN 14405 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-05 16:49:13.055  INFO 14405 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-05 16:49:13.061  WARN 14405 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-10-05 16:49:13.061  INFO 14405 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-05 16:49:13.345  INFO 14405 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-05 16:49:13.887  INFO 14405 --- [main] i.j.r.RatingsDataServiceApplicationTests : Started RatingsDataServiceApplicationTests in 2.649 seconds (JVM running for 3.511)
+2020-10-05 16:49:14.249  INFO 14405 --- [Thread-4] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-10-05 16:49:14.254  INFO 14405 --- [Thread-4] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application RATINGS-DATA-SERVICE with eureka with status DOWN
+2020-10-05 16:49:14.258  INFO 14405 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: movieinfo-deployment
+  labels:
+    app: movieinfo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: movieinfo
+  template:
+    metadata:
+      labels:
+        app: movieinfo
+    spec:
+      containers:
+      - env:
+        - name: eureka.client.serviceUrl.defaultZone
+          value: http://discovery:8761/eureka/
+        image: shsharma/movieinfo-service:v2
+        imagePullPolicy: "Always"
+        name: movieinfo
+        ports:
+        - containerPort: 8082

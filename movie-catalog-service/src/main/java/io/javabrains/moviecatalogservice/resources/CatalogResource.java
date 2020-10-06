@@ -36,6 +36,7 @@ public class CatalogResource {
   public List<CatalogItem> getCatalog(@PathVariable("userId") String userId) {
 
     UserRating userRating = userRatingInfo.getUserRating(userId);
+
     return userRating.getRatings().stream()
       .map(rating ->
         movieInfo.getCatalogItem(rating)
