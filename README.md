@@ -1,5 +1,8 @@
 # Spring  boot + discovery server(Eureka) + Circuit Breaker pattern -Hystrix + Hystrix dashboard + k8s
 
+## Design 
+https://github.com/shubham1210/systemdesign/blob/master/Distributed/Deployment%20Microservices%20and%20config.pdf 
+
 ## Service discovery 
 1. Way to discover a service that is too many in number. 
 2. Client side discovery is when a client talks to the discovery server and then hit the main service. 
@@ -44,29 +47,29 @@ And when the circuit break do the fallback ,
 3. ### http://192.168.29.140:8082/movies/1  - movie API
 4. ### http://localhost:8083/ratingsdata/user/1  - user API
 
-#Files to Look up
+# Files to Look up
 1. MovieCatalogServiceApplication
 2. UserRatingInfo
 
-#local Links
+# local Links
 1. http://localhost:8082/movies/1
 2. http://localhost:8081/catalog/1
 3. http://localhost:8083/ratingsdata/movies/1
 4. http://localhost:8761/
 
-#Important Notes
+# Important Notes
 1. first commit we made to make sure k8-service discovery should work, so we just made changes to app not act as eureka client and act normal , challenges we faced is port as eureak at local was taking care of ports
 2. we tried in this commmit by enabling eureka only challenge we see is , on cloud when rest template resolve the request with service name it replaced by pod name that makes confusive for k8s to link to the pod.
 3. so we should only use the k8s service to service discovery as it is roboust and easy to use.
 4. we need to use the eureka then we need to manage he all docker managmnet 
 
-#docker images for k8s service use v2, for eureka use v2
+# docker images for k8s service use v2, for eureka use v2
 1.  https://hub.docker.com/repository/docker/shsharma/moviecatalog-service:v3 
 2. https://hub.docker.com/repository/docker/shsharma/movieinfo-service:v3
 3. https://hub.docker.com/repository/docker/shsharma/ratings-service:v3
 4. https://hub.docker.com/repository/docker/shsharma/discovery-server:v3 
 
-#commits:
+# commits:
 1. for k8s  : coomit id  : 6a6b8be48ae53d0f4100233e193654346561e589 
 2. for eureka and docker  : 9503f0af48a7822be1c59338c3c52a3c814a84fb
 
