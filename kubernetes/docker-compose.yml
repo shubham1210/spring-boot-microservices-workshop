@@ -3,7 +3,7 @@ version: '3.3'
 services:
    discovery:
      build : 
-       context : ./discovery-server
+       context : ../discovery-server
        dockerfile : Dockerfile
      container_name: discovery
      image: shsharma/discovery-server:v1
@@ -14,10 +14,10 @@ services:
      depends_on:
        - discovery
      build : 
-       context : ./ratings-data-service
+       context : ../ratings-data-service
        dockerfile : Dockerfile
      container_name: rating
-     image: shsharma/ratings-service:v2
+     image: shsharma/ratings-service:v3
      environment: 
       - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
      ports:
@@ -27,10 +27,10 @@ services:
      depends_on:
        - discovery
      build : 
-       context : ./movie-info-service
+       context : ../movie-info-service
        dockerfile : Dockerfile
      container_name: movieinfo
-     image: shsharma/movieinfo-service:v2
+     image: shsharma/movieinfo-service:v3
      environment: 
       - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
      ports:
@@ -42,10 +42,10 @@ services:
        - rating
        - discovery
      build : 
-       context : ./movie-catalog-service
+       context : ../movie-catalog-service
        dockerfile : Dockerfile
      container_name: moviecatalog
-     image: shsharma/moviecatalog-service:v2
+     image: shsharma/moviecatalog-service:v3
      environment: 
       - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
      ports:

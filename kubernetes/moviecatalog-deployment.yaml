@@ -18,7 +18,7 @@ spec:
       - env:
         - name: eureka.client.serviceUrl.defaultZone
           value: http://discovery:8761/eureka/
-        image: shsharma/moviecatalog-service:v2
+        image: shsharma/moviecatalog-service:v3
         imagePullPolicy: "Always"
         name: moviecatalog
         ports:

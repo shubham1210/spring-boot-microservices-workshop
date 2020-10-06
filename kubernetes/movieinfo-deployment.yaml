@@ -18,7 +18,7 @@ spec:
       - env:
         - name: eureka.client.serviceUrl.defaultZone
           value: http://discovery:8761/eureka/
-        image: shsharma/movieinfo-service:v2
+        image: shsharma/movieinfo-service:v3
         imagePullPolicy: "Always"
         name: movieinfo
         ports:
