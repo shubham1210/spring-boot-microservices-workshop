@@ -1,4 +1,4 @@
-# Spring  boot + discovery server(Eureka) + Circuit Breaker pattern -Hystrix + Hystrix dashboard
+# Spring  boot + discovery server(Eureka) + Circuit Breaker pattern -Hystrix + Hystrix dashboard + k8s
 
 ## Service discovery 
 1. Way to discover a service that is too many in number. 
@@ -67,7 +67,8 @@ And when the circuit break do the fallback ,
 4. https://hub.docker.com/repository/docker/shsharma/discovery-server:v3 
 
 #commits:
-for k8s  : coomit id  : 6a6b8be48ae53d0f4100233e193654346561e589 
+1. for k8s  : coomit id  : 6a6b8be48ae53d0f4100233e193654346561e589 
+2. for eureka and docker  : 9503f0af48a7822be1c59338c3c52a3c814a84fb
 
 #docker
 1. docker-compose up -d --build : to run app at local.
