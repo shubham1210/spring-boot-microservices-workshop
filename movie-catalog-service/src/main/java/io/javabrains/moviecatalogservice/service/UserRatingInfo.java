@@ -27,6 +27,7 @@ public class UserRatingInfo {
   private EurekaClient discoveryClient;
 
 
+
   public static String serviceUrl(String instanceName, EurekaClient client) {
     List<InstanceInfo> list = client.getInstancesByVipAddress(instanceName,false);
     if (list != null && list.size() > 0 ) {
@@ -42,7 +43,8 @@ public class UserRatingInfo {
     @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds",value = "2000"),//how much time service should take max
     @HystrixProperty(name = "circuitBreaker.requestVolumeThreshold",value = "5"), // how many request can be considered to make the desciosn
     @HystrixProperty(name = "circuitBreaker.errorThresholdPercentage",value = "50"), // how much error % will drive the next decision
-    @HystrixProperty(name = "circuitBreaker.sleepWindowInMilliseconds",value = "5000") // how long it will go back to the main service.
+    @HystrixProperty(name = "circuitBreaker.sleepWindowInMilliseconds",value = "2000") // how long it will go back to the main service.
+
   })
   public UserRating getUserRating(@PathVariable("userId") String userId) {
 
